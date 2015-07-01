@@ -1,0 +1,16 @@
+.tabs.overlap .label:focus + * + * + * + * {
+    display: block;
+}
+
+.tabs.overlap-left .label {
+    float: left;
+}
+
+.tabs.overlap-right .label {
+    float: right;
+}
+
+/* Reset previous behavior */
+.tabs.overlap .label:focus + .list {
+    display: none;
+}
